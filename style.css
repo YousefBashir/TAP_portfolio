@@ -1,0 +1,175 @@
+/* General style */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --main-color:#008AAA;
+    --title-color:#D1884F;
+    --second-color:#3BBADB;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+ul{
+  list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.p-y{
+    margin-top: 3rem;
+}
+/* header style */
+header{
+    margin-top: 40px
+}
+/* list style */
+nav .ul__nav{
+    width: 100%;
+     display: flex;
+    justify-content: end; 
+}
+nav .ul__nav li{
+    display: inline-flex;
+    padding: 0 10px;
+    text-transform: capitalize;
+}
+nav .ul__nav li a i{
+    padding: 0 7px;
+}
+nav .ul__nav li a{
+    color: #000;
+    
+}
+nav .ul__nav li:first-child a  {
+    color: var(--title-color);
+}
+/* section style */
+.main__info{
+    display: flex;
+    margin-top: 120px;
+
+}
+.info{
+    flex: 2;
+}
+.welcome{
+    color: var(--second-color);
+}
+.info__title{
+    color: var(--main-color);
+    font-size: 35px;
+    font-weight: 900;
+    text-transform: capitalize;
+    width: 100%;
+}
+.jop{
+    color: var(--title-color);
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+/* buttons style */
+.btns{
+    display: inline-block;
+}
+.btn{
+    padding: 5px 20px;
+    margin: 7px;
+    border-radius: 5px;
+    color: #fff; 
+    cursor: pointer;
+    font-size: 18px;
+
+}
+.hire__me{
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+    box-shadow: 4px 9px 10px -5px #3BBADB;
+
+}
+.myproject{
+    color: var(--main-color);
+    background-color: #fff;
+    text-transform: capitalize;
+    border: 2px solid #008AAA;
+    border-color: var(--second-color);
+}
+/* image style */
+.my__image{
+    flex: 1;
+    margin: 0 50px;
+    
+}
+.my__image img{
+    max-width: 100%;
+    height: auto;
+    background-size: contain;
+    border-radius: 0% 0% 0% 50%;
+    box-shadow: -30px 7px 0px -6px var(--second-color);
+}
+/* about page style */
+.about__me{
+    display: flex;
+    margin-top: 100px;
+}
+.about__image{
+    width: 300px;
+    height: 300px;
+    flex: 1;
+}
+.about__image img{
+    object-fit: contain;
+    width: 100%;
+    border: 5px solid var(--second-color);
+
+}
+.about__info{
+    flex: 2;
+    margin: 10px 80px;
+}
+.about__info h3{
+    padding-top: 10px;
+    text-transform: capitalize;
+}
+.name{
+    text-transform: uppercase;
+    color: var(--main-color);
+}
+.career{
+ color: var(--title-color);
+}
+.lang{
+    color: var(--second-color);
+}
+.plang{
+    color: var(--second-color);
+}
+/* contact style */
+.ul__contact li {
+    padding: 5px;
+}
+.ul__contact li a{
+    color: var(--title-color);
+}
+.ul__contact li a i {
+    margin: 0 10px;
+    font-size: 20px;
+    color: var(--title-color);
+}
+.contact__title{
+    text-transform: capitalize;
+    color: var(--main-color);
+}
+.contact__title{
+    margin: 10px 15px;
+    color: var(--title-color);
+
+}
